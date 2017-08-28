@@ -1,7 +1,7 @@
 {
   "name": "laravel-vue-semantic-ui-pagination",
   "description": "A VueJS 2.x pagination used with Laravel & Semantic-UI",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Vinayak Kulkarni <vinayak.kulkarni@live.com>",
   "private": false,
   "main": "src/laravel-vue-semantic-ui-pagination.js",
