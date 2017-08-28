@@ -107,4 +107,4 @@ Vue.component('example-component', {
 
 ## NPM :octocat:  
 
-[![NPM](https://nodei.co/npm/vuejs-image.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vuejs-image/)
+[![NPM](https://nodei.co/npm/laravel-vue-semantic-ui-pagination.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/laravel-vue-semantic-ui-pagination/)
