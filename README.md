@@ -5,6 +5,8 @@
 
 + This is [on GitHub](https://github.com/vinayakkulkarni/laravel-vue-semantic-ui-pagination)  so let me know if I've b0rked it somewhere, give me a star :star: if you like it :beers:
 
++ You can checkout the [Demo](https://goo.gl/xtZGF9)
+
 ## Requirements
 
 * [Vue.js](https://vuejs.org/) 2.x
