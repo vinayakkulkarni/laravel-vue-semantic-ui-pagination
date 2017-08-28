@@ -3,7 +3,7 @@
 # Laravel Vue Semantic-UI Pagination :zap:
 + A Vue.js pagination component for Laravel paginators that works with Semantic-UI.
 
-+ This is [on GitHub](https://github.com/vinayakkulkarni/vue-image)  so let me know if I've b0rked it somewhere, give me a star :star: if you like it :beers:
++ This is [on GitHub](https://github.com/vinayakkulkarni/laravel-vue-semantic-ui-pagination)  so let me know if I've b0rked it somewhere, give me a star :star: if you like it :beers:
 
 ## Requirements
 
