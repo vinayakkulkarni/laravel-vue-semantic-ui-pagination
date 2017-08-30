@@ -1,27 +1,25 @@
 module.exports = {
 
-    template: `<div class="ui pagination menu" :class="size" v-if="data.total > data.per_page">
-        <!-- First Item -->
-        <a class="item" @click.prevent="selectPage(--data.current_page)" v-if="data.prev_page_url">
-            <i class="left icon" :class="icon"></i>
-        </a>
-        <a class="disabled item" v-if="showDisabled && !data.prev_page_url">
-            <i class="left icon" :class="icon"></i>
-        </a>
-
-        <!-- Pagination Menu Items -->
-        <a class="item" v-for="n in getPages()" :class="{ \'active\': n == data.current_page }" @click.prevent="selectPage(n)">
-            {{ n }}
-        </a>
-
-        <!-- Last Item -->
-        <a class="item" @click.prevent="selectPage(++data.current_page)" v-if="data.next_page_url">
-            <i class="right icon" :class="icon"></i>
-        </a>
-        <a class="disabled item" v-if="showDisabled && !data.next_page_url">
-            <i class="right icon" :class="icon"></i>
-        </a>
-    </div>`,
+    template: '<div class="ui pagination menu" :class="size" v-if="data.total > data.per_page">\
+        <!-- First Item -->\
+        <a class="item" @click.prevent="selectPage(--data.current_page)" v-if="data.prev_page_url">\
+            <i class="left icon" :class="icon"></i>\
+        </a>\
+        <a class="disabled item" v-if="showDisabled && !data.prev_page_url">\
+            <i class="left icon" :class="icon"></i>\
+        </a>\
+        <!-- Pagination Menu Items -->\
+        <a class="item" v-for="n in getPages()" :class="{ \'active\': n == data.current_page }" @click.prevent="selectPage(n)">\
+            {{ n }}\
+        </a>\
+        <!-- Last Item -->\
+        <a class="item" @click.prevent="selectPage(++data.current_page)" v-if="data.next_page_url">\
+            <i class="right icon" :class="icon"></i>\
+        </a>\
+        <a class="disabled item" v-if="showDisabled && !data.next_page_url">\
+            <i class="right icon" :class="icon"></i>\
+        </a>\
+    </div>',
 
 
     props: {
