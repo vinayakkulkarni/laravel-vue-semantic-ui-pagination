@@ -25,7 +25,7 @@ yarn add laravel-vue-semantic-ui-pagination
 
 Register the component globally:
 ```javascript
-Vue.component('pagination', require('laravel-vue-pagination'));
+Vue.component('pagination', require('laravel-vue-semantic-ui-pagination'));
 ```
 Or use locally
 ```javascript
